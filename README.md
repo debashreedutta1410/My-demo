@@ -9,7 +9,7 @@ A minimal Playwright setup for automated testing.
    npm install
    ```
 
-2. Install Playwright browsers
+2. Install Playwright browsers (required separately from npm install)
    ```
    npx playwright install
    ```
