@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2021",
+		"lib": ["es2020", "dom"],
+		"outDir": "build",
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true
+	},
+	"include": ["tests/**/*", "playwright.config.ts"],
+	"exclude": ["node_modules", ".vscode-test"]
+}

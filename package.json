@@ -1,0 +1,29 @@
+{
+	"name": "playwright-boilerplate",
+	"description": "Simple Playwright test boilerplate",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx playwright test",
+		"test:headed": "npx playwright test --headed",
+		"report": "npx playwright show-report",
+			"compile": "tsc -p ./",
+		"lint": "eslint",
+		"pretest": "npm run compile && npm run lint"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.40.0",
+		"@types/node": "^20.10.0",
+		"@eslint/js": "^9.13.0",
+		"@stylistic/eslint-plugin": "^2.9.0",
+		"eslint": "^9.13.0",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.26.0"
+	},
+	"keywords": [
+		"playwright",
+		"testing",
+		"automation"
+	]
+}

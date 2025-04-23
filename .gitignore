@@ -1,0 +1,14 @@
+node_modules/
+build/
+out/
+.vscode-test/
+*.vsix
+
+# Playwright specific
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# OS specific
+.DS_Store
