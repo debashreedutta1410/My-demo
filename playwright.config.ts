@@ -6,7 +6,7 @@ export default defineConfig({
   fullyParallel: true,
   reporter: 'html',
   use: {
-    baseURL: 'https://app.contentstack.com',
+    baseURL: 'https://eu-app.contentstack.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
