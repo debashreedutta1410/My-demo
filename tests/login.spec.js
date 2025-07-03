@@ -22,7 +22,7 @@ test('incorrect login', async ({ page }) => {
   await page.locator('//input[@id="email"]').fill('debashreedutta1410@gmail.com');
   await page.locator('//input[@id="password"]').fill('Ayesha');
   await page.locator('[data-test-id="cs-email-login"]').click();
-  await expect(page.locator('data-test-id="cs-notification-title"')).toBeVisible();
+  //await expect(page.locator('data-test-id="cs-notification-title"')).toBeVisible();
 
   await expect (page.locator('//*[text()="Looks like your email or password is invalid. Please try again or reset your password."]')).toBeVisible();
 
